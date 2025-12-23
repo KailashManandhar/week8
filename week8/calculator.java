@@ -26,4 +26,19 @@ public class calculator
     {
         return 20;
     }
+    
+    
+    // static method ( dont have to create object to call it in main function
+    
+    public static int square(int n)
+    {
+        return n*n;
+    }
+    
+    // method overloading ( same name but different parameters; it just works)
+    public double add(double i, double j)
+    {
+        return i + j;
+    }
+    
 }

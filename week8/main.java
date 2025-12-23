@@ -19,6 +19,7 @@ public class main
         
         
         System.out.println("The fixed number is : " + calc.getFixedNumber());
+        System.out.println("square of 8 is : " + calculator.square(8)); // class name for this one
         
     }
 }
